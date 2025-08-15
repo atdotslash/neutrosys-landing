@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Neutrosys — We automate your next step.</title>
+  <meta name="description" content="Automatización y agentes de IA para logística en LATAM." />
+  <meta name="theme-color" content="#0D9488" />
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Íconos (opcional) -->
+  <link rel="stylesheet" href="https://unpkg.com/lucide-static/font/lucide.css">
+  <!-- AOS (animaciones on-scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="brand">
+        <img src="logo.svg" alt="Neutrosys" class="brand__logo" />
+        <span class="brand__name">Neutrosys</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav__links" id="navLinks">
+        <a href="#servicios">Servicios</a>
+        <a href="#casos">Casos</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn--primary" href="#cta">Agenda demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__content" data-aos="fade-up">
+      <h1>Automatizamos tu <span class="accent">próximo paso</span> en logística</h1>
+      <p>Workflows y agentes de IA para inventarios, picking, trazabilidad y atención al cliente.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#cta">Agenda una demo</a>
+        <a class="btn btn--ghost" href="#casos">Ver casos</a>
+      </div>
+      <div class="hero__badges">
+        <span>Integración con: Google Sheets · WhatsApp Business · n8n · Zapier</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <div class="eyebrow" data-aos="fade-up">Servicios</div>
+      <h2 class="section__title" data-aos="fade-up" data-aos-delay="50">Soluciones para logística</h2>
+
+      <div class="grid" data-aos="fade-up" data-aos-delay="100">
+        <article class="card">
+          <h3>Trazabilidad y alertas</h3>
+          <p>Eventos, ETAs y desvíos en tiempo real con alertas por WhatsApp/Email.</p>
+        </article>
+        <article class="card">
+          <h3>Automatización de pedidos</h3>
+          <p>OMS → WMS → Facturación sin tareas manuales repetitivas.</p>
+        </article>
+        <article class="card">
+          <h3>Atención 24/7</h3>
+          <p>Estado de pedido y preguntas frecuentes vía WhatsApp Business.</p>
+        </article>
+        <article class="card">
+          <h3>Control de stock</h3>
+          <p>Reabastecimiento sugerido y auditoría de inventario multi‑sucursal.</p>
+        </article>
+        <article class="card">
+          <h3>RPA documental</h3>
+          <p>Remitos, e‑factura y conciliaciones automáticas.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Casos de uso -->
+  <section id="casos" class="section section--alt">
+    <div class="container">
+      <div class="eyebrow" data-aos="fade-up">Casos de uso</div>
+      <h2 class="section__title" data-aos="fade-up" data-aos-delay="50">Resultados que importan</h2>
+
+      <div class="grid grid--3" data-aos="fade-up" data-aos-delay="100">
+        <article class="kpi">
+          <div class="kpi__value kpi--amber">30% más rápido</div>
+          <h3>Pick &amp; Pack</h3>
+          <p>Batching de pedidos + etiquetas + verificación por escaneo.</p>
+        </article>
+        <article class="kpi">
+          <div class="kpi__value kpi--amber">-25% quiebres</div>
+          <h3>Reposición</h3>
+          <p>Forecast simple + alertas de stock mínimo.</p>
+        </article>
+        <article class="kpi">
+          <div class="kpi__value kpi--amber">&lt; 2 min</div>
+          <h3>Atención al cliente</h3>
+          <p>Bot transaccional con estado de envío y devoluciones.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proceso -->
+  <section id="proceso" class="section">
+    <div class="container">
+      <div class="eyebrow" data-aos="fade-up">Cómo trabajamos</div>
+      <h2 class="section__title" data-aos="fade-up" data-aos-delay="50">De idea a impacto, en semanas</h2>
+
+      <ol class="steps" data-aos="fade-up" data-aos-delay="100">
+        <li><span>Paso 1</span>Diagnóstico</li>
+        <li><span>Paso 2</span>PoC 2–4 semanas</li>
+        <li><span>Paso 3</span>Integración</li>
+        <li><span>Paso 4</span>Mejora continua</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="section cta">
+    <div class="container cta__box" data-aos="zoom-in">
+      <h3>Contanos tu proceso</h3>
+      <p>Te devolvemos un mapa de automatización en 48 h.</p>
+      <a class="btn btn--dark" href="#contacto">Empezar</a>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title" data-aos="fade-up">Contacto</h2>
+      <form class="form" data-aos="fade-up" data-aos-delay="50" onsubmit="return handleSubmit(event)">
+        <input class="input" type="text" name="nombre" placeholder="Nombre" required>
+        <input class="input" type="email" name="email" placeholder="Email" required>
+        <input class="input" type="text" name="whatsapp" placeholder="WhatsApp (opcional)">
+        <textarea class="input textarea" name="mensaje" placeholder="Contanos tu proceso actual…" required></textarea>
+        <button class="btn btn--primary" type="submit">Enviar</button>
+      </form>
+      <p class="muted">También por WhatsApp o agenda directa (Calendly) — próximamente.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>© <span id="year"></span> Neutrosys — We automate your next step.</div>
+      <div class="footer__links">
+        <a href="#" aria-disabled="true">Privacidad</a>
+        <a href="#" aria-disabled="true">Términos</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
